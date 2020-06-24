@@ -1,0 +1,16 @@
+{
+  "help_text": "Type `$role add [role] @user` to add a role to a user\nType `$role remove [role] @user` to remove the role\nType `$role list` to view the roles you can add",
+  "icon_success": ":white_check_mark:",
+  "icon_failed": ":x:",
+  "limit_command_to_channel" : ["bot-testing"],
+  "roles": {
+    "admin": {
+      "test" : {
+        "id": "725041860506288228",
+        "name": "test",
+        "add_message": "You can now join the whitelisted server",
+        "remove_message": "For any question please open a support ticket on the server"
+      }
+    }
+  }
+}
